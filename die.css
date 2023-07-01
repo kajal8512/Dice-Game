@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right,rgb(241, 238, 239), rgb(106, 161, 152));
+}
+
+.head-line{
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column column;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.head1{
+    width: 160px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 450px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head2{
+    width: 170px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 350px;
+    padding: 70px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    background-color: rgb(28, 216, 200);
+    display:flex;
+    flex-direction: column column;
+    gap: 100px;
+    justify-items: center;
+  }
+
+.head{
+    width: 50px;
+    height: 50px;
+}
+  
+.die {
+    width: 35%;
+    height: 130px;
+    background-color: white;
+}
+  
+.start {
+    width: 180px;
+    height: 80px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 335px;
+    margin-left: 600px;
+    border: 5px solid rgb(70, 69, 69);
+    font-size: 30px;
+}
+    
+  
+.shake {
+    animation: shake 2s infinite;
+  }
+  
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
